@@ -12,6 +12,12 @@
 		D2D922401DD69CF70036436A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D9223E1DD69CF70036436A /* Main.storyboard */; };
 		D2D922421DD69CF70036436A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D922411DD69CF70036436A /* Assets.xcassets */; };
 		D2D922451DD69CF70036436A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D922431DD69CF70036436A /* LaunchScreen.storyboard */; };
+		D2D922511DD69E830036436A /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2D9224D1DD69E830036436A /* background.jpg */; };
+		D2D922521DD69E830036436A /* omikuji_body.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D9224E1DD69E830036436A /* omikuji_body.png */; };
+		D2D922531DD69E830036436A /* omikuji_head.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D9224F1DD69E830036436A /* omikuji_head.png */; };
+		D2D922541DD69E830036436A /* omikuji_stick.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D922501DD69E830036436A /* omikuji_stick.png */; };
+		D2D922571DD6C8840036436A /* jump01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2D922561DD6C8840036436A /* jump01.mp3 */; };
+		D2D9225F1DD6E8890036436A /* newtype.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2D9225E1DD6E8890036436A /* newtype.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		D2D922411DD69CF70036436A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2D922441DD69CF70036436A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2D922461DD69CF70036436A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D9224D1DD69E830036436A /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		D2D9224E1DD69E830036436A /* omikuji_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikuji_body.png; sourceTree = "<group>"; };
+		D2D9224F1DD69E830036436A /* omikuji_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikuji_head.png; sourceTree = "<group>"; };
+		D2D922501DD69E830036436A /* omikuji_stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikuji_stick.png; sourceTree = "<group>"; };
+		D2D922561DD6C8840036436A /* jump01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump01.mp3; sourceTree = "<group>"; };
+		D2D9225E1DD6E8890036436A /* newtype.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = newtype.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 		D2D922391DD69CF70036436A /* OmikujiApp */ = {
 			isa = PBXGroup;
 			children = (
+				D2D922551DD6C8840036436A /* omikujisound */,
+				D2D9224C1DD69E830036436A /* image */,
 				D2D9223A1DD69CF70036436A /* AppDelegate.swift */,
 				D2D9223C1DD69CF70036436A /* ViewController.swift */,
 				D2D9223E1DD69CF70036436A /* Main.storyboard */,
@@ -62,6 +76,26 @@
 				D2D922461DD69CF70036436A /* Info.plist */,
 			);
 			path = OmikujiApp;
+			sourceTree = "<group>";
+		};
+		D2D9224C1DD69E830036436A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				D2D9224D1DD69E830036436A /* background.jpg */,
+				D2D9224E1DD69E830036436A /* omikuji_body.png */,
+				D2D9224F1DD69E830036436A /* omikuji_head.png */,
+				D2D922501DD69E830036436A /* omikuji_stick.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		D2D922551DD6C8840036436A /* omikujisound */ = {
+			isa = PBXGroup;
+			children = (
+				D2D9225E1DD6E8890036436A /* newtype.mp3 */,
+				D2D922561DD6C8840036436A /* jump01.mp3 */,
+			);
+			path = omikujisound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D922451DD69CF70036436A /* LaunchScreen.storyboard in Resources */,
+				D2D9225F1DD6E8890036436A /* newtype.mp3 in Resources */,
+				D2D922511DD69E830036436A /* background.jpg in Resources */,
+				D2D922541DD69E830036436A /* omikuji_stick.png in Resources */,
+				D2D922521DD69E830036436A /* omikuji_body.png in Resources */,
 				D2D922421DD69CF70036436A /* Assets.xcassets in Resources */,
+				D2D922571DD6C8840036436A /* jump01.mp3 in Resources */,
+				D2D922531DD69E830036436A /* omikuji_head.png in Resources */,
 				D2D922401DD69CF70036436A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
